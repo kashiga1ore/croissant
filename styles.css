@@ -1,0 +1,41 @@
+:root {
+  --primary-color: #d0a74d;
+  --secondary-color: rgb(255, 220, 144);
+  --accent-color: rgb(103, 78, 24);
+  --box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+h1 {
+  color: var(--primary-color);
+  text-align: center;
+}
+p {
+  padding: 15px;
+}
+img {
+  width: 400px;
+  margin: 50px;
+}
+.home-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  border: 1px solid;
+  margin: 15px;
+  padding: 15px 15px;
+}
+.home-link:hover {
+  color: var(--accent-color);
+}
+.email {
+  color: var(--accent-color);
+  text-decoration: none;
+  margin: 30px;
+}
+.email:hover {
+  color: var(--secondary-color);
+}
